@@ -1,0 +1,135 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(220, 135, 241);
+  }
+  
+  li {
+    float: right;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+body
+{
+    background:linear-gradient(rgba(86, 84, 211, 0.8),rgba(172, 52, 166, 0.8)), url(./image/contactluna.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+ 
+
+
+}
+
+.container
+{
+    margin: 20px 40px;
+    color: white;
+    padding: 30px 0; 
+}
+
+.head
+{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.para
+{
+    font-style: italic;
+    font-size: 30px;
+     text-align: center;
+     margin: 20px;
+}
+.heading span
+{
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.profiles
+{
+  flex-basis: 260px;
+  margin: 40px;
+  padding: 0px;
+  
+}
+
+.first
+{
+    float: left;
+      width:20%; 
+    height:280px;
+    
+}
+
+.second
+{
+    float:left;  
+                
+    width:50%; 
+    height:280px; 
+    text-align: center;
+}
+.third
+{
+    float:right; 
+    
+    width:25%; 
+    height:280px; 
+}
+.profiles .profile-img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.profiles:hover .profile-img
+{
+    filter: grayscale(0);
+}
+
+.user-name
+{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profiles h5
+{
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.profiles p
+{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
